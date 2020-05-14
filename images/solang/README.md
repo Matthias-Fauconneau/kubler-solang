@@ -2,7 +2,7 @@
 
 Run this [solang][] image with:
 
-    $ docker run -d --name solang solang
+    $ docker run kubler-solang/solang solang
 
 [Last Build][packages]
 

@@ -1,0 +1,4 @@
+FROM ${NAMESPACE}/overlay
+LABEL maintainer ${MAINTAINER}
+
+CMD ["/bin/bash"]
