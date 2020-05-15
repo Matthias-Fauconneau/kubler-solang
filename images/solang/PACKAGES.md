@@ -1,7 +1,8 @@
 ### kubler-solang/solang:20200513
 
-Built: Fri 15 May 2020 05:26:58 PM CEST
+Built: Fri 15 May 2020 06:11:53 PM CEST
 Image Size: 110MB
+
 
 
 
