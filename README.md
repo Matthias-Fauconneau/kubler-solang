@@ -2,9 +2,9 @@
 Kubler namespace currently holding a reproducible builder to test net-p2p/solang
 
 ## Images
-bob-overlay extends kubler/bob-glibc with an ebuild overlay for solang
-solang-deps has LLVM:8 and rust-bin
-images/solang can produce a final application image
+- 'bob-overlay' extends kubler/bob-glibc with an ebuild overlay for solang
+- 'solang-deps' has LLVM:8 and rust-bin
+- 'solang' can produce a final application image
 
 ## Development
 ```shell
