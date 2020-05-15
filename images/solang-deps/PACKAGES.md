@@ -1,23 +1,19 @@
-### kubler-solang/solang:20200513
+### kubler-solang/solang-deps:20200513
 
-Built: Fri 15 May 2020 05:26:58 PM CEST
-Image Size: 110MB
-
-
+Built: Fri 15 May 2020 02:02:34 PM CEST
+Image Size: 107MB
 
 #### Installed
 Package | USE Flags
 --------|----------
-net-p2p/solang-2020.03.29 | `-debug`
-#### Inherited
-Package | USE Flags
---------|----------
-**FROM kubler-solang/solang-deps** |
 dev-libs/libffi-3.3-r1 | `-debug -pax`
 net-p2p/solang-9999 | `-debug`
 sys-devel/llvm-8.0.1 | `libffi -debug (-doc) -exegesis -gold -libedit -ncurses -test -xar -xml`
 sys-devel/llvm-common-9.0.1 | ``
 sys-libs/zlib-1.2.11-r2 | `(split-usr) -minizip -static-libs`
+#### Inherited
+Package | USE Flags
+--------|----------
 **FROM kubler/glibc** |
 dev-libs/libunistring-0.9.10 | `-doc -static-libs`
 net-dns/libidn2-2.3.0 | `-static-libs`
