@@ -8,3 +8,8 @@ configure_rootfs_build()
     flaggie dev-lang/rust +~amd64 +system-llvm +llvm_targets_WebAssembly +wasm +nightly +parallel-compiler
     flaggie net-p2p/solang +~amd64
 }
+
+finish_rootfs_build()
+{
+    copy_gcc_libs
+}

@@ -2,7 +2,8 @@
 
 Run this [solang][] image with:
 
-    $ docker run kubler-solang/solang solang
+    $ alias solang='docker run -i kubler-solang/solang <'
+    $ solang mapping.sol
 
 [Last Build][packages]
 

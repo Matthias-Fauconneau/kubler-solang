@@ -2,3 +2,5 @@ FROM ${IMAGE_PARENT}
 LABEL maintainer ${MAINTAINER}
 
 ADD rootfs.tar /
+RUN ldconfig
+ENTRYPOINT ["solang","/dev/stdin"]
